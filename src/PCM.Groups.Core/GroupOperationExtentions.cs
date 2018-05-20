@@ -19,12 +19,13 @@ namespace PCM.Groups.Core
 
         public static IGroup<Target> Transform<Source,Target>(this IGroup<Source> group1, Func<Source, Target> transfromFunction, Func<Target , Source> backWard)
         {
-               var group = new GenericGroup<Target>(nameof(Target), t=> group1.IsBelong(backWard(t)));
 
 
-            foreach (var item in group1.Items)
-                group.Add(transfromFunction(item));
-        return group;
+            var operationSet = new GroupSetOperation<Source>();
+
+            return operationSet.Transform(group1, transfromFunction, backWard);
+
+          
         }
     }
 }
