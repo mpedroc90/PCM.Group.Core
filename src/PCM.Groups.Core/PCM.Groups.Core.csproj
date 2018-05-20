@@ -4,8 +4,4 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\src\PCM.Group.Core\PCM.Group.Core.csproj" />
-  </ItemGroup>
-
 </Project>
