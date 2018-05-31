@@ -1,4 +1,4 @@
-﻿namespace PCM.Groups.Core
+﻿namespace PCM.Groups
 {
     ///<inheritdoc/>
     /// <summary>

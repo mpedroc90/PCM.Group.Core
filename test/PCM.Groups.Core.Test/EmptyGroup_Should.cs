@@ -1,7 +1,7 @@
 using System.Linq;
 using Xunit;
 
-namespace PCM.Groups.Core.Test
+namespace PCM.Groups.Test
 {
     public class EmptyGroup_Should
     {

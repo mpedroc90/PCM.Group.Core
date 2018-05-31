@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\PCM.Groups.Core\PCM.Groups.Core.csproj" />
+    <ProjectReference Include="..\..\src\PCM.Groups\PCM.Groups.csproj" />
   </ItemGroup>
 
 </Project>

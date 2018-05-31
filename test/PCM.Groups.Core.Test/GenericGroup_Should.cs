@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace PCM.Groups.Core.Test
+namespace PCM.Groups.Test
 {
     public class GenericGroup_Should
     {

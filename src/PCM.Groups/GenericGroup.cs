@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace PCM.Groups.Core
+namespace PCM.Groups
 {
     ///<inheritdoc/>
     public sealed class GenericGroup<T> : Group<T>

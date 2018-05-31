@@ -1,6 +1,6 @@
 using System;
 
-namespace PCM.Groups.Core
+namespace PCM.Groups
 {
     /// <summary>
     /// Set opertaions
