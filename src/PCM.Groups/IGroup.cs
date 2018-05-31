@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PCM.Groups.Core
+namespace PCM.Groups
 {
 
     /// <summary>

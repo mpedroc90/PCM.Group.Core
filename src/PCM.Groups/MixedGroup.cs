@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PCM.Groups.Core
+namespace PCM.Groups
 {
     /// <inheritdoc />
     /// <summary>
